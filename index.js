@@ -16,7 +16,7 @@ delete newObj[key]
   return newObj
 }
 
-fuction destructivelyDeleteFromObjectByKey(object, key) {
+function destructivelyDeleteFromObjectByKey(object, key) {
   delete object[key]
   return object
 }
