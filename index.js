@@ -15,3 +15,8 @@ var newObj = Object.assign({}, object)
 delete newObj[key]
   return newObj
 }
+
+fuction destructivelyDeleteFromObjectByKey(object, key) {
+  delete object[key]
+  return object
+}
